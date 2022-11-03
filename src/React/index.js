@@ -1,3 +1,4 @@
+// 创建文本节点
 const createTextElement = (text) => {
     return {
         type: "TEXT_ELEMENT",
@@ -8,10 +9,11 @@ const createTextElement = (text) => {
     };
 }
 /**
- *
+ * 创建虚拟 DOM 结构
  * @param type HTML 元素的类型（h1,p,button）
  * @param props 对象的属性（{style:{size:10px}} 或 Eventhandlers、classNames 等）
  * @param children 需要在屏幕上显示的任何东西
+ * @return element 创建虚拟 DOM 结构
  */
 const createElement = (type, props, ...children) => {
     return {
@@ -26,6 +28,7 @@ const createElement = (type, props, ...children) => {
 }
 
 /**
+ *
  * @param element 需要在DOM中渲染的元素
  * @param container 在 dom 中渲染的位置
  */
