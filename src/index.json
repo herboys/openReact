@@ -1,0 +1,28 @@
+{
+  "type": "h1",
+  "props": {
+    "children": [
+      {
+        "type": "TEXT_ELEMENT",
+        "props": {
+          "nodeValue": "Hi React",
+          "children": []
+        }
+      }
+    ]
+  }
+}
+
+
+//{
+//  "type": "div",
+//  "props": {
+//    "children": {
+//      "type": "TEXT_ELEMENT",
+//      "props": {
+//        "nodeValue": "hi,React",
+//        "children": []
+//      }
+//    }
+//  }
+//}
